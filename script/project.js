@@ -4,7 +4,7 @@ const allkey = document.querySelectorAll('.key')
 allkey.forEach(
     key =>{
         key.addEventListener('click',() =>{
-            output.value += key.textContent;
+            output.value += key.textContent
         })
     }
 )
