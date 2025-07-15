@@ -47,11 +47,14 @@ const list = [
         word: "headphone",
         hint: "You use to hear from ."
     },{
-        word: "Riffa",
+        word: "riffa",
         hint: " Clock roundabout in Bahrain ."
     },{
-        word: "",
-        hint: "."
+        word: "money",
+        hint: "something you need."
+    },{
+        word: "bottle",
+        hint: "Storing the water in it to drink."
     },
     {
         word: "ball",
