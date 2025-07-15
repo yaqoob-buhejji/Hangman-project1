@@ -9,7 +9,7 @@ let lives = 5
 // const emptyLines = ['1','2','3','4','5',];
 let letter;
 let word;
-let currentLetter = [];
+let currentLetters = [];
 
 const list = ['orange', 'apple','car','javascript','html'];
 
@@ -28,7 +28,8 @@ function playing(){
         console.log(`${letter} exist`);
         [...word].forEach((char, i) => {
             if(char === letter){
-
+                currentLetters.push(letter);
+                displyWord.querySelectorAll("li")[i].innerText= letter;
             }
         })
 
