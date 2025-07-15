@@ -14,19 +14,23 @@ let currentLetter = [];
 const list = ['orange', 'apple','car','javascript','html'];
 
 
-function getWord(event) {
+function getWord() {
     const randomword = list[Math.floor(Math.random()*list.length)]
     word = randomword;
     displyWord.innerHTML=word.split('').map(()=>`<li class="letter"></li>`).join('');
 }
 
 function playing(){
-    console.log("word " ,word)
-    console.log("letter " ,letter)
+    // console.log("word " ,word)
+    // console.log("letter " ,letter)
 
     if(word.includes(letter)){
-
         console.log(`${letter} exist`);
+        [...word].forEach((char, i) => {
+            if(char === letter){
+
+            }
+        })
 
     }
     else{
