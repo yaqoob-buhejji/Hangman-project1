@@ -50,10 +50,10 @@ margin-bottom: 2%;
 
 #lose{
     color:red;
-    visibility:hidden;
+    display:none;
 }
 
 #win{
     color:green;
-    visibility: hidden;
+    display:none;
 } 

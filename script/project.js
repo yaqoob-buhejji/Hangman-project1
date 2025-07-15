@@ -5,7 +5,7 @@ const allkey = document.querySelectorAll('.key')
 const displyWord = document.querySelector('.p')
 const hangImg = document.querySelector('.game-board img')
 const loseMessage = document.querySelector("#lose")
-
+const winmessage =  document.querySelector("#win")
 
 // const emptyLines = ['1','2','3','4','5',];
 let letter;
@@ -21,15 +21,16 @@ function getWord() {
     const randomword = list[Math.floor(Math.random()*list.length)]
     word = randomword;
     displyWord.innerHTML=word.split('').map(()=>`<li class="letter"></li>`).join('');
+    console.log(word)
 }
 
 function playing(){
     // console.log("word " ,word)
     // console.log("letter " ,letter)
 
-    if(currentLetters.length === word.length){
-        console.log("You win")
-    }
+    
+
+    
     if(word.includes(letter)){
         console.log(`${letter} exist`);
         [...word].forEach((char, i) => {
@@ -55,10 +56,11 @@ function playing(){
         // }
 
         // losing
+        
         if(lives === maxLives){
             console.log("You lose")
             
-            loseMessage.style.visibility = "visible"
+            loseMessage.style.display = "block"
 
             allkey.forEach((key)=>{
                 key.addEventListener("click",()=>{})
@@ -66,8 +68,21 @@ function playing(){
             })
 
         }
+        
 
     }
+    if(currentLetters.length === word.length){
+        console.log("You win")
+        
+            console.log("You Win")
+            
+            winmessage.style.display = "block"
+
+            allkey.forEach((key)=>{
+                key.addEventListener("click",()=>{})
+                key.removeEventListener("click",()=>{})
+            })
+        }
 }
 
 allkey.forEach((key) => {
