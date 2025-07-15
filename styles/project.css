@@ -31,7 +31,7 @@ margin-bottom: 2%;
 } 
 
 
-#game-board{
+.game-board{
     /* height:100vh; */
     display: flex;
     flex-direction:column;
@@ -46,3 +46,14 @@ margin-bottom: 2%;
     gap: 20px;
     
 }
+
+
+#lose{
+    color:red;
+    visibility:hidden;
+}
+
+#win{
+    color:green;
+    visibility: hidden;
+} 
