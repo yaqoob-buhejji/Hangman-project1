@@ -57,3 +57,28 @@ margin-bottom: 2%;
     color:green;
     display:none;
 } 
+
+/* img{
+    width: 40%;
+    margin: auto;
+justify-content: center;
+margin-top: 2%;
+margin-bottom: 2%;
+
+} */
+
+#reset{
+    font-size: x-large;
+    margin-top: auto;
+
+}
+
+.game-board img{
+
+    width: 40%;
+    margin: auto;
+justify-content: center;
+margin-top: 2%;
+margin-bottom: 2%;
+
+}
