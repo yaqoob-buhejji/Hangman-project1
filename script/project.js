@@ -19,46 +19,46 @@ let splitWord = []
 const list = [
     {
         word: "apple",
-        hint: "A fruit that is commonly red or green."
+        hint: "Hint: A fruit that is commonly red or green."
     },
     {
         word: "book",
-        hint: "Contains pages with text for reading."
+        hint: "Hint: Contains pages with text for reading."
     },
     {
         word: "sun",
-        hint: "A star that provides light and heat."
+        hint: "Hint: A star that provides light and heat."
     },
     {
         word: "cat",
-        hint: "A furry animal that meows."
+        hint: "Hint: A furry animal that meows."
     },
     {
         word: "javascript",
-        hint: "Coding langauge ."
+        hint: "Hint: Coding langauge."
     },
     {
         word: "clock",
-        hint: "Where we see the time?"
+        hint: "Hint: Where we see the time?"
     },{
         word: "chair",
-        hint: "Something exists in class where you feel comfortable ."
+        hint: "Hint: Something exists in class where you feel comfortable ."
     },{
         word: "headphone",
-        hint: "You use to hear from ."
+        hint: "Hint: You use to hear from."
     },{
         word: "riffa",
-        hint: " Clock roundabout in Bahrain ."
+        hint: "Hint: Clock roundabout in Bahrain."
     },{
         word: "money",
-        hint: "something you need."
+        hint: "Hint: Something you need."
     },{
         word: "bottle",
-        hint: "Storing the water in it to drink."
+        hint: "Hint: Storing the water in it to drink."
     },
     {
         word: "ball",
-        hint: "Round object used in various games."
+        hint: "Hint: Round object used in various games."
         
     }];
 
