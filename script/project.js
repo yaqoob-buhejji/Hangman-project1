@@ -58,7 +58,7 @@ const list = [
     },
     {
         word: "ball",
-        hint: "Hint: Round object used in various games."
+        hint: "Hint: Round object used in various sport games."
         
     }];
 
