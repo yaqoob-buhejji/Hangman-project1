@@ -1,5 +1,5 @@
 function init(){
-
+// Hangman Game
 const output = document.getElementById('output')
 const allkey = document.querySelectorAll('.key')
 const displyWord = document.querySelector('.p')
