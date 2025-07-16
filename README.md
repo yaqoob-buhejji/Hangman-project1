@@ -87,12 +87,10 @@ You win by correctly guessing all the letters that make up the secret word or ph
 
 
 <!-- CONTRIBUTING -->
-## The Game 
-The game link is at the right up try it and enjoy!!
+## The Game Link
+The game link up right try it and enjoy !!!
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
